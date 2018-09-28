@@ -18,7 +18,7 @@ Related: PH privacy body to investigate massive Facebook data scandal (http://cn
 
 But do Facebook users or netizens, in general, even understand the dangers of a personal data leak?
 
-Cybercrime law expert JJ Disini told CNN Philippines' On the Recordthe answer is no (http://cnnphilippines.com/news/2018/04/12/facebook-data-privacy-jj-disini.html).
+Cybercrime law expert JJ Disini told CNN Philippines' On the Record the answer is no (http://cnnphilippines.com/news/2018/04/12/facebook-data-privacy-jj-disini.html).
 
 "The truth is that people don't really understand threats to their privacy because it's so abstract," he said. "So you know that it's happening, but because it doesn't present itself to you, you don't see the threat."
 
@@ -59,6 +59,8 @@ Liboro said netizens may also be cast into a stereotype based on their online pr
 Unfair decision-making happens "when other parties decide who you are and decide what you should have based on your online actions, without face to face validation of your beliefs and point of view," he explained.
 
 The risks include losing out on a loan, a job, or other opportunities on the sole basis of personal data retrieved online.
+
+VIDEO: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCNNPhilippines%2Fvideos%2F2182223025350918%2F&show_text=0&width=560
 
 STEPS TO STAY SECURE ONLINE
 

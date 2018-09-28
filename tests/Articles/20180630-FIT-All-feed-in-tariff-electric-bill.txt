@@ -1,13 +1,14 @@
 DOES THE 'FIT-ALL' FIT AT ALL IN YOUR ELECTRIC BILL?
 
-http://cnnphilippines.com/incoming/q13fb2-electric_transmission_tower_CNNPH.jpg/ALTERNATES/FREE_720/electric_transmission_tower_CNNPH.jpg
+PHOTO: http://cnnphilippines.com/incoming/q13fb2-electric_transmission_tower_CNNPH.jpg/ALTERNATES/FREE_720/electric_transmission_tower_CNNPH.jpg
 
 METRO MANILA (CNN PHILIPPINES) - The Philippines is not tapering its electricity use.
 
 Data from the Department of Energy (DOE) shows the country consumed over 94,370,341 megawatt-hours (MWh) of electricity in 2017, the highest in a steady increase spanning 15 years.
 
 Power rates had to keep up. A household consuming 200 kilowatt-hours (kWh) a month now spends around ₱2,000 - almost a fifth of a minimum-wage earner's monthly salary.
-https://public.flourish.studio/resources/made_with_flourish.svg (https://public.flourish.studio/visualisation/68891/?utm_source=embed&utm_campaign=visualisation/68891)
+
+EMBED: https://public.flourish.studio/visualisation/68891/embed
 
 But on May 28, the Energy Regulatory Commission (ERC) decided to allow the National Transmission Corp. (TransCo) to collect ₱0.0733 more per kWh from all customers on the grid under a so-called "FiT-All" or feed-in-tariff allocation charge.
 
@@ -54,7 +55,8 @@ But former Department of Environment and Natural Resources Undersecretary Antoni
 An October 2017 study from the International Energy Agency said auction prices for RE sources such as solar and wind go as low as US$0.03 per kWh (₱1.60 per kWh). These prices were recorded in countries including India, the United Arab Emirates, Mexico and Chile.
 
 Data from the International Renewable Energy Agency in October 2017 also show the total cost to install utility-scale solar photovoltaic power plants has gone down since 2010.
-https://public.flourish.studio/resources/made_with_flourish.svg (https://public.flourish.studio/visualisation/68877/?utm_source=embed&utm_campaign=visualisation/68877)
+
+EMBED: https://public.flourish.studio/visualisation/68877/embed
 
 Another study from Germany-based Friedrich Ebert Stiftung said costs of solar projects in the Philippines dropped by 80 percent between 2011 and 2016, while costs of wind projects dropped by around 50 percent.
 
@@ -78,4 +80,4 @@ He said some distribution utilities are asking for plenty of requirements from t
 
 But Gatchalian said prices of electricity can still go down by about ₱1.50 per kWh, if reforms happen in the industry.
 
-"There's a price to pay for energy security, there's a price to cleaner energy, and that's where we are right now," said Gatchalian. "Clean energy, secure energy, and affordable energy -- we're balancing it."
+"There's a price to pay for energy security, there's a price to cleaner energy, and that's where we are right now," said Gatchalian. "Clean energy, secure energy, and affordable energy - we're balancing it."

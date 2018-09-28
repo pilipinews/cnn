@@ -4,9 +4,9 @@ namespace Pilipinews\Website\Cnn;
 
 use Pilipinews\Common\Article;
 use Pilipinews\Common\Client;
+use Pilipinews\Common\Crawler as DomCrawler;
 use Pilipinews\Common\Interfaces\ScraperInterface;
 use Pilipinews\Common\Scraper as AbstractScraper;
-use Symfony\Component\DomCrawler\Crawler;
 
 /**
  * CNN Philippines Scraper
@@ -19,7 +19,7 @@ class Scraper extends AbstractScraper implements ScraperInterface
     /**
      * @var string[]
      */
-    protected $removables = array('p > script');
+    protected $removables = array('p > script', '.flourish-credit');
 
     /**
      * @var string[]
@@ -27,36 +27,20 @@ class Scraper extends AbstractScraper implements ScraperInterface
     protected $reload = array(
         'Please click the source link below for more updates.',
         'Please refresh for updates.',
+        'Please refresh the page for updates.',
         'Please refresh this page for updates.',
         'Refresh this page for more updates.',
     );
 
     /**
-     * Initializes the scraper instance.
-     *
-     * @param string $link
-     */
-    public function __construct($link)
-    {
-        $pattern = '/content-body-[0-9]+(-[0-9]+)+/i';
-
-        $html = Client::request($link);
-
-        preg_match($pattern, $html, $matches);
-
-        $html = str_replace($matches[0], 'content-body', $html);
-
-        $this->crawler = new Crawler($html);
-    }
-
-    /**
      * Returns the contents of an article.
      *
+     * @param  string $link
      * @return \Pilipinews\Common\Article
      */
-    public function scrape()
+    public function scrape($link)
     {
-        $this->remove((array) $this->removables);
+        $this->prepare((string) $link);
 
         $title = $this->title('title', ' - CNN Philippines');
 
@@ -76,17 +60,46 @@ class Scraper extends AbstractScraper implements ScraperInterface
     }
 
     /**
+     * Initializes the crawler instance.
+     *
+     * @param  string $link
+     * @return void
+     */
+    protected function prepare($link)
+    {
+        $pattern = '/content-body-[0-9]+(-[0-9]+)+/i';
+
+        $html = Client::request((string) $link);
+
+        $html = str_replace(' </em> ', '</em> ', $html);
+
+        preg_match($pattern, (string) $html, $matches);
+
+        $html = str_replace($matches[0], 'content-body', $html);
+
+        $html = str_replace(' </a>', '</a> ', $html);
+
+        $html = str_replace('<strong> </strong>', ' ', $html);
+
+        $this->crawler = new DomCrawler((string) $html);
+
+        $this->remove((array) $this->removables);
+    }
+
+    /**
      * Converts video elements to readable string.
      *
-     * @param  \Symfony\Component\DomCrawler\Crawler $crawler
-     * @return \Symfony\Component\DomCrawler\Crawler
+     * @param  \Pilipinews\Common\Crawler $crawler
+     * @return \Pilipinews\Common\Crawler
      */
-    protected function video(Crawler $crawler)
+    protected function video(DomCrawler $crawler)
     {
-        $callback = function (Crawler $crawler) {
-            $link = (string) $crawler->attr('src');
+        $callback = function (DomCrawler $crawler) {
+            $embed = strpos($link = $crawler->attr('src'), 'embed');
 
-            return '<p>VIDEO: ' . $link . '</p>';
+            $type = $embed !== false ? 'EMBED' : 'VIDEO';
+
+            return '<p>' . $type . ': ' . $link . '</p><br><br><br>';
         };
 
         return $this->replace($crawler, 'p > iframe', $callback);
