@@ -94,7 +94,8 @@ class Scraper extends AbstractScraper implements ScraperInterface
      */
     protected function video(DomCrawler $crawler)
     {
-        $callback = function (DomCrawler $crawler) {
+        $callback = function (DomCrawler $crawler)
+        {
             $embed = strpos($link = $crawler->attr('src'), 'embed');
 
             $type = $embed !== false ? 'EMBED' : 'VIDEO';

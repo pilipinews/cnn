@@ -27,7 +27,8 @@ class Crawler implements CrawlerInterface
 
         $response = Client::request($url . (string) $query);
 
-        $callback = function (DomCrawler $node) {
+        $callback = function (DomCrawler $node)
+        {
             $pattern = '.media-heading > a';
 
             $link = $node->filter($pattern);
@@ -52,7 +53,8 @@ class Crawler implements CrawlerInterface
      */
     protected function verify($items)
     {
-        $callback = function ($link) {
+        $callback = function ($link)
+        {
             $news = strpos($link, 'es.com/news/');
 
             return $news !== false ? $link : null;
