@@ -56,7 +56,7 @@ class Scraper extends AbstractScraper implements ScraperInterface
 
         $html = preg_replace($search, $replace, $html);
 
-        return new Article($title, (string) $html);
+        return new Article($title, $html, $link);
     }
 
     /**

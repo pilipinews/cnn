@@ -7,8 +7,6 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Crawler and scraper for [CNN Philippines](http://cnnphilippines.com/) website.
-
 ## Installation
 
 Install `CNN Philippines` via [Composer](https://getcomposer.org/):
@@ -16,10 +14,6 @@ Install `CNN Philippines` via [Composer](https://getcomposer.org/):
 ``` bash
 $ composer require pilipinews/cnn
 ```
-
-## Basic Usage
-
-Coming soon.
 
 ## Changelog
 
