@@ -21,19 +21,19 @@ class Crawler implements CrawlerInterface
      */
     public function crawl()
     {
-        $url = 'http://cnnphilippines.com/search/?order=DESC';
+        $base = (string) 'https://cnnphilippines.com';
+
+        $url = 'https://cnnphilippines.com/search/?order=DESC';
 
         $query = '&page=1&q=a&sort=PUBLISHDATE';
 
-        $response = Client::request($url . (string) $query);
+        $response = Client::request($url . $query);
 
-        $callback = function (DomCrawler $node)
+        $callback = function (DomCrawler $node) use ($base)
         {
-            $pattern = '.media-heading > a';
+            $link = $node->filter('.media-heading > a');
 
-            $link = $node->filter($pattern);
-
-            return (string) $link->attr('href');
+            return (string) $base . $link->attr('href');
         };
 
         $crawler = new DomCrawler((string) $response);
@@ -55,9 +55,7 @@ class Crawler implements CrawlerInterface
     {
         $callback = function ($link)
         {
-            $news = strpos($link, 'es.com/news/');
-
-            return $news !== false ? $link : null;
+            return strpos($link, '/news/') !== false ? $link : null;
         };
 
         $items = array_map($callback, (array) $items);
