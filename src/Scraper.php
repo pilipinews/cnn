@@ -42,9 +42,11 @@ class Scraper extends AbstractScraper implements ScraperInterface
     {
         $this->prepare((string) $link);
 
-        $title = $this->title('title', ' - CNN Philippines');
+        $title = $this->title('.title');
 
-        $body = $this->body('#content-body');
+        $body = $this->body('.article-maincontent-p');
+
+        $body = $this->image($body);
 
         $body = $this->video($this->tweet($body));
 
@@ -60,30 +62,30 @@ class Scraper extends AbstractScraper implements ScraperInterface
     }
 
     /**
-     * Initializes the crawler instance.
+     * Converts image elements into a readable string.
      *
-     * @param  string $link
-     * @return void
+     * @param  \Symfony\Component\DomCrawler\Crawler $crawler
+     * @return \Symfony\Component\DomCrawler\Crawler
      */
-    protected function prepare($link)
+    protected function image(DomCrawler $crawler)
     {
-        $pattern = '/content-body-[0-9]+(-[0-9]+)+/i';
+        $callback = function (DomCrawler $crawler, $html)
+        {
+            $base = 'https://cnnphilippines.com';
 
-        $html = Client::request((string) $link);
+            $link = $crawler->filter('img')->attr('src');
 
-        $html = str_replace(' </em> ', '</em> ', $html);
+            $caption = $crawler->filter('.picture-caption');
 
-        preg_match($pattern, (string) $html, $matches);
+            if ($text = $caption->first()->text())
+            {
+                $text = ' - ' . $text;
+            }
 
-        $html = str_replace($matches[0], 'content-body', $html);
+            return '<p>PHOTO: ' . $base . $link . $text . '</p>';
+        };
 
-        $html = str_replace(' </a>', '</a> ', $html);
-
-        $html = str_replace('<strong> </strong>', ' ', $html);
-
-        $this->crawler = new DomCrawler((string) $html);
-
-        $this->remove((array) $this->removables);
+        return $this->replace($crawler, '.img-container.picture', $callback);
     }
 
     /**

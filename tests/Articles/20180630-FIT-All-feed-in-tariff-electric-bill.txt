@@ -1,6 +1,4 @@
-DOES THE 'FIT-ALL' FIT AT ALL IN YOUR ELECTRIC BILL?
-
-PHOTO: http://cnnphilippines.com/incoming/q13fb2-electric_transmission_tower_CNNPH.jpg/ALTERNATES/FREE_720/electric_transmission_tower_CNNPH.jpg
+COVER STORY DOES THE 'FIT-ALL' FIT AT ALL IN YOUR ELECTRIC BILL?
 
 METRO MANILA (CNN PHILIPPINES) - The Philippines is not tapering its electricity use.
 
@@ -8,7 +6,9 @@ Data from the Department of Energy (DOE) shows the country consumed over 94,370,
 
 Power rates had to keep up. A household consuming 200 kilowatt-hours (kWh) a month now spends around ₱2,000 - almost a fifth of a minimum-wage earner's monthly salary.
 
-EMBED: https://public.flourish.studio/visualisation/68891/embed
+ELECTRICITY CONSUMPTION IN THE PHILIPPINES
+
+SOURCE: DEPARTMENT OF ENERGY, APRIL 2018
 
 But on May 28, the Energy Regulatory Commission (ERC) decided to allow the National Transmission Corp. (TransCo) to collect ₱0.0733 more per kWh from all customers on the grid under a so-called "FiT-All" or feed-in-tariff allocation charge.
 
@@ -16,7 +16,7 @@ While developers of renewable energy resources will get various incentives from 
 
 That may result in an additional charge of ₱51.26 for the average household. But, the way Filipinos are eating up electricity now goes beyond average.
 
-WHY IS FIT-ALL PROBLEMATIC?
+Why is FIT-All problematic?
 
 The increase did not sit well with consumer groups.
 
@@ -32,7 +32,7 @@ Senate Committee on Energy Chairman Sherwin Gatchalian says the FIT-All Scheme i
 
 "If the policy is to achieve energy security, you want to promote renewable energy. Right now we import 15 percent of our power through coal," he said. "The question is, how much are you willing to pay (for) energy security?"
 
-FOLLOWING THE MONEY
+Following the money
 
 Collections from the scheme are placed in the FIT-All Fund managed by TransCo, to be disbursed to the developers of renewable energy sources.
 
@@ -56,13 +56,15 @@ An October 2017 study from the International Energy Agency said auction prices f
 
 Data from the International Renewable Energy Agency in October 2017 also show the total cost to install utility-scale solar photovoltaic power plants has gone down since 2010.
 
-EMBED: https://public.flourish.studio/visualisation/68877/embed
+UTILITY-SCALE SOLAR PV TOTAL INSTALLED COST TRENDS IN SELECTED COUNTRIES, 2010-2017
+
+Source: IRENA Renewable Cost Database, October 2017
 
 Another study from Germany-based Friedrich Ebert Stiftung said costs of solar projects in the Philippines dropped by 80 percent between 2011 and 2016, while costs of wind projects dropped by around 50 percent.
 
 It added offers from solar developers to distributors ranged from ₱3.50 to ₱5.29 per kWh.
 
-IS FIT-ALL STILL NECESSARY?
+Is FIT-All still necessary?
 
 With prices dropping in global markets, Gatchalian believes giving incentives to developers of solar and wind energy is no longer needed, as prices for these have gone down.
 

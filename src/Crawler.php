@@ -21,24 +21,18 @@ class Crawler implements CrawlerInterface
      */
     public function crawl()
     {
-        $base = (string) 'https://cnnphilippines.com';
+        $base = 'https://cnnphilippines.com';
 
-        $url = 'https://cnnphilippines.com/search/?order=DESC';
-
-        $query = '&page=1&q=a&sort=PUBLISHDATE';
-
-        $response = Client::request($url . $query);
+        $response = Client::request($base);
 
         $callback = function (DomCrawler $node) use ($base)
         {
-            $link = $node->filter('.media-heading > a');
-
-            return (string) $base . $link->attr('href');
+            return $base . $node->filter('a')->attr('href');
         };
 
         $crawler = new DomCrawler((string) $response);
 
-        $news = $crawler->filter('.results > .media');
+        $news = $crawler->filter('.cbwidget-list > li');
 
         $news = $this->verify($news->each($callback));
 

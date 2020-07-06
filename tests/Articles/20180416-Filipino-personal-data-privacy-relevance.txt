@@ -1,6 +1,6 @@
 WHY FILIPINOS SHOULD CARE ABOUT THEIR PERSONAL DATA ONLINE
 
-METRO MANILA (CNN PHILIPPINES, APRIL 16) - Abuse of online data can have real-life repercussions, National Privacy Commission (NPC) Chairman Raymund Liboro warned on Monday.
+Metro Manila (CNN Philippines, April 16) - Abuse of online data can have real-life repercussions, National Privacy Commission (NPC) Chairman Raymund Liboro warned on Monday.
 
 "This matter about Cambridge Analytica [means] personal information could be used to form or influence behavior," he said.
 
@@ -10,15 +10,15 @@ The information was then used by Cambridge Analytica to develop techniques that 
 
 The data scandal affected over 1.18 million Filipino Facebook users and shined a light on how technology can "manipulate data for a firm to achieve its objectives," the commissioner said.
 
-Cambridge Analytica's parent company, Strategic Communications Laboratories, claimed to have helped an unnamed client win the 2016 presidential election in the Philippines. President Rodrigo Duterte has denied any dealings (http://cnnphilippines.com/news/2018/04/13/Duterte-2016-election-Cambridge-Analytica.html) with the company.
+Cambridge Analytica's parent company, Strategic Communications Laboratories, claimed to have helped an unnamed client win the 2016 presidential election in the Philippines. President Rodrigo Duterte has denied any dealings with the company.
 
 On April 11, the NPC wrote to Facebook asking for details of the data breach which it was investigating. Liboro said they have yet to receive a reply.
 
-Related: PH privacy body to investigate massive Facebook data scandal (http://cnnphilippines.com/news/2018/04/13/Philippines-Facebook-data-scandal-Mark-Zuckerberg.html)
+Related: PH privacy body to investigate massive Facebook data scandal
 
 But do Facebook users or netizens, in general, even understand the dangers of a personal data leak?
 
-Cybercrime law expert JJ Disini told CNN Philippines' On the Record the answer is no (http://cnnphilippines.com/news/2018/04/12/facebook-data-privacy-jj-disini.html).
+Cybercrime law expert JJ Disini told CNN Philippines' On the Record the answer is no.
 
 "The truth is that people don't really understand threats to their privacy because it's so abstract," he said. "So you know that it's happening, but because it doesn't present itself to you, you don't see the threat."
 
@@ -28,7 +28,7 @@ Liboro spoke to CNN Philippines' The Source and broke down the harm and risks in
 
 A 2013 United States-based study found Facebook likes could accurately predict personal information - including a person's race, sexual orientation, and political orientation.
 
-Related: How Facebook 'likes' predict race, religion, and sexual orientation (http://cnnphilippines.com/world/2018/04/11/facebook-likes-cambridge-analytica-data-breach.html)
+Related: How Facebook 'likes' predict race, religion, and sexual orientation
 
 Liboro warned a data leak could lead to discrimination if a third party had access to the political affiliation, religious beliefs, or ethnic origin of netizens.
 
@@ -60,16 +60,17 @@ Unfair decision-making happens "when other parties decide who you are and decide
 
 The risks include losing out on a loan, a job, or other opportunities on the sole basis of personal data retrieved online.
 
-VIDEO: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCNNPhilippines%2Fvideos%2F2182223025350918%2F&show_text=0&width=560
-
 STEPS TO STAY SECURE ONLINE
 
 Liboro said the NPC had four primary demands from Facebook. The agency said users of the social media site must be:
 
-* provided a "clear choice" whether or not to disclose their data;
-* given a "fair and lawful notice" of access to their data;
-* assured of optimum protection of their data; and
-* given a "clear pathway of address of grievance," where Facebook responds immediately to their concerns.
+provided a "clear choice" whether or not to disclose their data;
+
+given a "fair and lawful notice" of access to their data;
+
+assured of optimum protection of their data; and
+
+given a "clear pathway of address of grievance," where Facebook responds immediately to their concerns.
 
 In the meantime, Liboro advised netizens not to panic and adjust their privacy settings.
 
@@ -81,7 +82,7 @@ Facebook users can also restrict access to their data from third party developer
 
 It was also revealed that Facebook had been gathering Android users' data - including calls and text messages - outside of the app. Android users can opt out of this function by unsyncing their contact list from Facebook.
 
-WATCH: How to find out what Facebook knows about you (https://edition.cnn.com/videos/cnnmoney/2018/03/27/facebook-android-personal-data-burke-pkg.cnn)
+WATCH: How to find out what Facebook knows about you
 
 The Philippines is one of the leading countries that use social media. According to a 2018 report by the UK-based consultancy firm We Are Social, there are over 67 million Facebook accounts in the country.
 
